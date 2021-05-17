@@ -1,0 +1,20 @@
+.p-10{
+    padding: 10px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.border-bottom{
+    border-bottom: 1px solid black;
+}
+
+.size{
+    height: 100px;
+    width: 100px;
+}
+
+.display-flex {
+    display: flex;
+}
