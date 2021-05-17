@@ -46,11 +46,11 @@ class VoteCounter extends Component {
 				<div className="col-10">
                     {
                         images.map((image,i) => (
-                            <div className="display-flex p-10 border-bottom" key={i}>
+                            <div className="row display-flex p-10 border-bottom" key={i}>
                                 <img className="size" src={image.thumbnailUrl} title={image.title} alt={image.title} onClick={e => this.addVote(image,i)}/>
                                 <div className="m-10">
-                                    <h4>{image.title}</h4>
-                                    <h4>{image.vote}</h4>
+                                    <h4>Title: {image.title}</h4>
+                                    <h4>Vote: {image.vote}</h4>
                                 </div>
                             </div>
                         ))
